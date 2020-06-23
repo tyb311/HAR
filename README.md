@@ -2,7 +2,7 @@
 An app for human activities recognition(HAR), which is based on PaddlePaddle framework of Baidu
 
 # Video
-![img]https://github.com/tyb311/HAR-Paddle/blob/master/kuiba.gif
+![img](https://github.com/tyb311/HAR-Paddle/blob/master/kuiba.gif)
 
 You can see our pefect work from this video:
 <video width="320" height="240" controls>
@@ -10,7 +10,7 @@ You can see our pefect work from this video:
   Video for HAR-Paddle
 </video>
 
-![img]kuiba.gif
+![img](kuiba.gif)
 
 # Code
 Code is coming soon! Please wait for a while
