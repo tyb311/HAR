@@ -1,7 +1,5 @@
 # HAR-APP
-An app for human activities recognition(HAR), which is based on PaddlePaddle framework of Baidu
-
-# Code
+An app for human activities recognition(HAR).
 Code is coming soon! Please wait for a while.
 
 # Video
