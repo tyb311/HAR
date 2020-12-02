@@ -14,3 +14,5 @@ An app for human activities recognition(HAR).
 >   You can see our perfect work from this video:https://tyb311.github.io/HAR/, which will be finished soon!
 >   Visit BiliBili:https://www.bilibili.com/video/BV1hg4y1v7me/.
 >   You can download our product in releases module.
+
+HaHA, Baihaohan de code@@@
