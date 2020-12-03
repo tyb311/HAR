@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="9dp"
+    tools:context=".TestLBS"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txt_lbs"
+        android:text="LBS Location"
+        android:gravity="center_vertical"
+        android:textSize="18pt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_weight="5"
+        android:text="定位"
+        android:id="@+id/btn_gps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

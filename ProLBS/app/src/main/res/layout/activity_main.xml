@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:navigationIcon="@drawable/icon_menu"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:titleTextColor="#fff">
+            </androidx.appcompat.widget.Toolbar>
+        </FrameLayout>
+
+        <include layout="@layout/layout_main">Hi</include>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/menu_nav"
+            android:layout_gravity="left"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/layout_nav"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
+
+    <!--旧版本-->
+    <!--android.support.v7.widget.Toobar-->
+    <!--android.support.design.widget.NavigationView-->
+
+    <!--新版本-->
+    <!--androidx.drawerlayout.widget.DrawerLayout-->
+    <!--androidx.appcompat.widget.Toolbar-->
+    <!--com.google.android.material.navigation.NavigationView-->
+
+    <!--//NavigationView dependencies-->
+    <!--implementation 'com.android.support:design:+'-->
+    <!--implementation 'de.hdodenhof:circleimageview:+'-->

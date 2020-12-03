@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HAR</string>
+
+    <string name="app_developer">
+        Developer:2483671432@qq.com\n
+        ©2020 TYB(UESTC). All rights reserved.</string>
+    <string name="app_inc">
+        操作说明：\n
+        1.点击录制按钮,开始活动监测\n
+        2.将手机竖放在裤侧口袋\n
+        3.已进入监测状态，可自由活动\n
+        演示过程中建议使用全面屏手势，防止误触
+    </string>
+</resources>

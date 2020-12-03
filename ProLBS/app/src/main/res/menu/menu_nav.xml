@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_sos"-->
+            <!--android:icon="@drawable/icon_sos"-->
+            <!--android:title="求救(SOS)"/>-->
+        <item
+            android:id="@+id/nav_act"
+            android:icon="@drawable/icon_chart"
+            android:title="演示(ACT)"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_run"-->
+            <!--android:icon="@drawable/icon_run"-->
+            <!--android:title="小窗(RUN)"/>-->
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/icon_set"
+            android:title="设置(SET)"/>
+        <item
+            android:id="@+id/nav_inc"
+            android:icon="@drawable/icon_inc"
+            android:title="说明(INC)"/>
+        <item
+            android:id="@+id/nav_out"
+            android:icon="@drawable/icon_out"
+            android:title="退出(OUT)"/>
+        <!--<item-->
+        <!--android:id="@+id/nav_gps"-->
+        <!--android:icon="@drawable/icon_gps"-->
+        <!--android:title="定位(GPS)"/>-->
+    </group>
+</menu>
