@@ -5,10 +5,6 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-/**
- * @author zhangshuai
- * @date 2018/3/29.
- */
 
 public class UtilPackage {
 

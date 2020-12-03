@@ -12,6 +12,11 @@ import java.io.InputStream;
 import java.util.Date;
 import java.util.Vector;
 
+/**
+ * 参考我的知乎教程：
+ * 百度Paddle-Lite教程之模型转换篇:https://zhuanlan.zhihu.com/p/81194781
+ * 百度Paddle-Lite教程之图像分类App开发实战：https://zhuanlan.zhihu.com/p/81887390
+ */
 public class UtilPaddle {
 
 	private static final String TAG = "Paddle";

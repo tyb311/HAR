@@ -15,6 +15,10 @@ An app for human activities recognition(HAR).
 2.   Visit BiliBili:https://www.bilibili.com/video/BV1hg4y1v7me/, **!!!STAR IT!!!**.
 *   You can download our APP file in releases module.
 
+##  Reference[我的知乎，飞桨教程]
+*   百度Paddle-Lite教程之模型转换篇:https://zhuanlan.zhihu.com/p/81194781
+*   百度Paddle-Lite教程之图像分类App开发实战：https://zhuanlan.zhihu.com/p/81887390
+*   PaddlePaddle
+*   PaddleLite
 
-
-Copyright@UESTC,YuboTan,2020
+Copyright@UESTC,Yubo Tan,2020
