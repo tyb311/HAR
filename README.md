@@ -15,14 +15,23 @@ An app for human activities recognition(HAR).
 
 
 ##  Show
-1.  Visit the webpage ***AI Studio Project*** at:https://aistudio.baidu.com/aistudio/projectdetail/1286602
+
+1.  [***AI Studio Project***](https://aistudio.baidu.com/aistudio/projectdetail/1286602)  
+Visit our ***AI Studio Project***  
+https://aistudio.baidu.com/aistudio/projectdetail/1286602
 <!-- 1.   You can see our perfect work from this video:https://tyb311.github.io/HAR/, which is not available now. -->
-2.   Visit BiliBili Video:https://www.bilibili.com/video/BV1hg4y1v7me/, **!!!STAR IT!!!**.
-3.  An github page at:https://github.com/tyb311/HAR
+
+2.  [***BiliBili Video***](https://www.bilibili.com/video/BV1hg4y1v7me/)  
+Visit BiliBili Video  
+https://www.bilibili.com/video/BV1hg4y1v7me/, **!!!STAR IT!!!**.
+
+3.  [***GitHub Page***](https://github.com/tyb311/HAR)  
+Visit our GitHub  
+https://github.com/tyb311/HAR
 
 *   You can download our APP file in releases module.
 
-##  Reference[我的知乎，飞桨教程]
+##  Reference  
 *   百度Paddle-Lite教程之模型转换篇:https://zhuanlan.zhihu.com/p/81194781
 *   百度Paddle-Lite教程之图像分类App开发实战：https://zhuanlan.zhihu.com/p/81887390
 *   PaddlePaddle
