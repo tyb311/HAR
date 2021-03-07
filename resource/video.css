@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tyb
+ * @date    2020-12-02 16:29:57
+ * @version $Id$
+ */
+*{ margin:0; padding:0;}
+img {border:none; }
+em,i{ font-style:normal;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, font { padding: 0; margin: 0; font-family:"微软雅黑"; }
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+ol, ul, li, dl, dt, dd { list-style: none; }
+input, button, textarea, checkbox, select, radio, form { vertical-align: top; }
+a{ color: #000; text-decoration: none; }
+a:link, a:visited { text-decoration: none; }
+.public_width{ width: 100%;max-width: 1200px; height: auto; overflow: hidden; margin: 0 auto;  }
+/*视频*/
+.video_con{ background: #282828; color: #fff; }
+.video_con .video_con_title{ width: 100%;height: 70px; line-height: 70px;font-size: 30px; font-weight: bold;text-indent: 1em; color: #fff; background-color: #333;}
+.video_con .video_con_show{}
+.video_con_show{ width: 100%;height: 630px; font-size: 0; }
+.video_con_show .video_bofang{ display: inline-block; width: 900px;height: 630px; font-size: 24px; vertical-align: top;}
+.video_con_show .video_show_zs{ display: inline-block; width: 300px;height: 630px;font-size: 24px; border-left: 2px solid #444; box-sizing: border-box;}
+.video_show_zs	.video_show_zj{ width: 100%;height: auto; padding: 20px 0; background-color: #444;}
+	.video_show_zj  .video_show_zj_img{ display: inline-block; width: 66px; vertical-align: middle;margin: 0 20px; }
+	.video_show_zj  .video_show_zj_js{ display: inline-block; width: 180px; vertical-align: middle;  color: #fff;}
+  		.video_show_zj_js .video_show_zj_name{ display: block; font-size: 28px; }
+  		.video_show_zj_js .video_show_zj_zc{display: block; font-size: 22px; }
+
+.video_show_zs .video_show_title{ font-size: 14px; margin: 10px;}
+.video_show_zs .video_show_con{margin: 10px;height: 473px; overflow-y:auto;}
+	.video_show_con .video_show_list{ font-size: 14px;width: 100%;height: auto;overflow: hidden; color: #fff; margin-top: 20px;}
+	 	.video_show_list img{ display: inline-block; width: 120px;vertical-align: middle;margin-right: 10px; }
+	 	.video_show_list span{ display: inline-block; width: 130px; }
+
+.tab-box .video_con_show_con{width:820px;height:630px;display:none;}
+/* 让第一个框显示出来 */
+.tab-box div:first-Child{display:block;} 
+/* 改变选项卡选中时候的样式 */
+.change{background:rgba(255,255,255,0.6);} 
+
+.video_show_con::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.video_show_con::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+background-color: #555;
+
+    }
+.video_show_con::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        /*border-radius: 10px;*/
+        background: #282828;
+    }
