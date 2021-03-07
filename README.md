@@ -26,14 +26,16 @@ Visit BiliBili Video
 https://www.bilibili.com/video/BV1hg4y1v7me/, **!!!STAR IT!!!**.
 
 3.  [***GitHub Page***](https://github.com/tyb311/HAR)  
-Visit our GitHub  
+Visit our GitHub for Android Project  
 https://github.com/tyb311/HAR
+
+4.  [***Gitee Page***](https://gitee.com/tyb311/harpaddle)  
+Visit our Gitee for Paddle Project  
+https://gitee.com/tyb311/harpaddle
 
 *   You can download our APP file in releases module.
 
 ##  Reference  
-*   百度Paddle-Lite教程之模型转换篇:https://zhuanlan.zhihu.com/p/81194781
-*   百度Paddle-Lite教程之图像分类App开发实战：https://zhuanlan.zhihu.com/p/81887390
 *   PaddlePaddle
 *   PaddleLite
 
